@@ -79,9 +79,12 @@ body{
     transition: .2s;
 }
 
-
-
-
+h2.titulo{
+    color: rgb(13, 47, 119);
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 40px;
+}
 
 
 /*estilo do cabeçario*/
@@ -163,4 +166,37 @@ animation: bombastico 2s ease-in-out infinite alternate;
     100%{
         top: 30px;
     }
+}
+/* estilos para as habilidades */
+section.habilidades{
+    padding: 40px 4%;
+}
+
+section.habilidades .flex{
+    justify-content: space-between;
+    gap: 60px;
+}
+
+
+.habilidades .habilidades-box{
+    color: white;
+   padding: 40px;
+    border-radius: 20px;
+   border: 2px solid rgb(26, 152, 255);
+margin-top: 40px;
+transition: .2s;
+}
+
+.habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(137, 43, 226, 0.493);
+}
+
+.habilidades .habilidades-box i{
+    font-size: 70px;
+    color:white;
+}
+.habilidades .habilidades-box h3{
+    font-size: 28px;
+    margin: 15px 0px;
 }
